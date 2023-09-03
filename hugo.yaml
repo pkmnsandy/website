@@ -1,0 +1,29 @@
+baseURL: https://www.pkmnsandy.com/
+languageCode: en-us
+title: pkmnsandy
+theme: "PaperMod"
+
+googleAnalytics: UA-171571381-1
+
+menu:
+  main:
+    - identifier: education
+      name: Education
+      url: /education/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 30
+    - identifier: gallery
+      name: Gallery
+      url: /gallery/
+      weight: 40
+    - identifier: spider
+      name: Project spideR
+      url: /project-spider/
+      weight: 50

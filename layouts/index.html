@@ -1,0 +1,90 @@
+{{ define "main" }}
+<style>
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .text {
+    width: 60%;
+    margin-right: 20px;
+  }
+
+  .photo {
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+
+</style>
+
+<div class="container">
+  <div class="text">
+    <h1>Hello! I am Sandy.</h1>
+    <p>I am an early-career plant scientist and an advocate for the 
+        conservation and sustainable use of plant genetic resources for food and 
+        agriculture. Currently, I am pursuing my doctoral studies at the Institute 
+        of Plant Genetics at Heinrich-Heine Universität in Düsseldorf, Germany. 
+        My research focuses on the ecological genetics of <i>Hordeum murinum</i> populations 
+        in Europe. Additionally, I am a member of the DSI scientific network.</p>    
+    <div class="social-icons">
+
+      <a href="https://twitter.com/pkmnsandy" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+      </a>
+
+      <a href="https://www.instagram.com/pkmnjan/" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+      
+      <a href="mailto:sandy.labarosa@hhu.de" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+      </a>
+      
+      <a href="SW-2297-2342-7810" id="icon-link" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="500" height="500" viewBox="0 0 50 50">
+          <path d="M 14.529297 4 C 10.942497 4 8.2058513 5.0534259 6.4550781 7.1035156 C 4.704305 9.1536053 4 12.041439 4 15.525391 L 4 35.525391 C 4 41.557868 8.4048675 46 14.529297 46 L 24 46 L 24 4 L 14.529297 4 z M 35.474609 4 L 25.974609 4.015625 L 25.974609 46 L 35.474609 46 C 41.613609 46 46 41.565 46 35.5 L 46 15.550781 C 46 7.9587812 42.445609 4 35.474609 4 z M 14.529297 6 L 22 6 L 22 44 L 14.529297 44 C 9.323726 44 6 40.632913 6 35.525391 L 6 15.525391 C 6 12.313342 6.6623357 9.9412541 7.9765625 8.4023438 C 9.2907893 6.8634333 11.318097 6 14.529297 6 z M 14.5 10 C 13.083334 10 11.893559 10.567256 11.126953 11.429688 C 10.360347 12.292118 10 13.402778 10 14.5 C 10 15.597222 10.360347 16.707881 11.126953 17.570312 C 11.893559 18.432744 13.083334 19 14.5 19 C 15.916666 19 17.106441 18.432744 17.873047 17.570312 C 18.639653 16.707881 19 15.597222 19 14.5 C 19 13.402778 18.639653 12.292119 17.873047 11.429688 C 17.106441 10.567255 15.916666 10 14.5 10 z M 14.5 12 C 15.416666 12 15.976893 12.307744 16.376953 12.757812 C 16.777013 13.207882 17 13.847222 17 14.5 C 17 15.152778 16.777013 15.792119 16.376953 16.242188 C 15.976893 16.692256 15.416666 17 14.5 17 C 13.583334 17 13.023107 16.692256 12.623047 16.242188 C 12.222987 15.792119 12 15.152778 12 14.5 C 12 13.847222 12.222987 13.207881 12.623047 12.757812 C 13.023107 12.307745 13.583334 12 14.5 12 z M 36 24 C 38.206 24 40 25.794 40 28 C 40 30.206 38.206 32 36 32 C 33.794 32 32 30.206 32 28 C 32 25.794 33.794 24 36 24 z"></path>
+          </svg>
+      </a>
+      
+      <script>
+        document.getElementById('icon-link').addEventListener('click', function(event) {
+          event.preventDefault();
+          var hrefValue = this.getAttribute('href');
+          alert('Nintendo Switch Friend Code: ' + hrefValue);
+        });
+      </script>
+
+
+    </div>
+  </div>
+  <div class="photo">
+    <img src="images/depressed_grad_student.JPG" width="80%" height="50%" align="right" />
+  </div>
+</div>
+{{ end }}
