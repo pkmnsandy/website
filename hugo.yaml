@@ -22,7 +22,7 @@ menu:
       name: Gallery
       url: /gallery/
       weight: 40
-    - identifier: spider
-      name: Project spideR
-      url: /project-spider/
+    - identifier: 
+      name: dRei project
+      url: /drei-project/
       weight: 50
